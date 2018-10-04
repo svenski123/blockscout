@@ -31,7 +31,8 @@ defmodule Explorer.Application do
       configure(Explorer.ExchangeRates),
       configure(Explorer.Market.History.Cataloger),
       configure(Explorer.Counters.TokenTransferCounter),
-      configure(Explorer.Counters.BlockValidationCounter)
+      configure(Explorer.Counters.BlockValidationCounter),
+      configure(Explorer.Scheduler)
     ]
     |> List.flatten()
   end
