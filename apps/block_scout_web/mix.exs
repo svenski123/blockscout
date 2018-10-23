@@ -52,7 +52,6 @@ defmodule BlockScoutWeb.Mixfile do
       :ex_cldr,
       :timex,
       :timex_ecto,
-      :crontab,
       :logger,
       :runtime_tools
     ]
@@ -65,7 +64,6 @@ defmodule BlockScoutWeb.Mixfile do
       {:bypass, "~> 0.8", only: :test},
       {:cowboy, "~> 1.0"},
       {:credo, "0.10.2", only: [:dev, :test], runtime: false},
-      {:crontab, "~> 1.1"},
       {:dialyxir, "~> 0.5", only: [:dev, :test], runtime: false},
       {:ex_cldr_numbers, "~> 1.0"},
       {:ex_cldr_units, "~> 1.0"},
