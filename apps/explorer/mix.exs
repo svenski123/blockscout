@@ -94,7 +94,7 @@ defmodule Explorer.Mixfile do
       # Prometheus metrics for query duration
       {:prometheus_ecto, "~> 1.3"},
       {:sobelow, ">= 0.7.0", only: [:dev, :test], runtime: false},
-      {:timex, "~> 3.1.24"},
+      {:timex, "~> 3.0"},
       {:timex_ecto, "~> 3.2.1"},
       {:cowboy, "~> 1.0"}
     ]
